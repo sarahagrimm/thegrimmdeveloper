@@ -1,0 +1,36 @@
+$blueblack: rgb(45, 52, 56);
+$black: hsl(0, 1%, 15%);
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab|Amatic+SC');
+
+i {
+    font-size: 50px;
+    padding-right: 20px;
+}
+
+.spin:hover {
+    transform: rotateY(180deg);
+}
+
+h1 {
+    font-size: 3em;
+    letter-spacing: 10px;
+    font-family: 'Amatic SC', cursive;
+}
+
+h3 {
+    font-family: 'Josefin Slab', cursive;
+    letter-spacing: 5px;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    list-style: none;
+    padding: 15px;
+    font-family: 'Josefin Slab', cursive;
+
+}

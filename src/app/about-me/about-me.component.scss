@@ -1,0 +1,84 @@
+$blueblack: rgb(45, 52, 56);
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab|Amatic+SC');
+
+#about {
+    // background-color: black;
+    // background: url('https://images.pexels.com/photos/599459/pexels-photo-599459.jpeg?auto=compress&cs=tinysrgb&h=1350');
+    background: url('../../assets/city.jpg');
+    background-size: cover;
+    background-position: fixed;
+
+    p {
+        font-size: 1em;
+        font-family: 'Josefin Slab';
+    }
+
+    h1 {
+        font-size: 3em;
+        letter-spacing: 10px;
+        font-family: 'Amatic SC', cursive;
+    }
+
+    .card {
+        border-radius: 25px;
+    }
+}
+
+.contact {
+
+    max-width: 500px;
+    padding-top: 25px;
+
+
+i {
+    font-size: 25px;
+    padding: 13px;  
+    color: $blueblack;
+    width: 50px;
+    height: 50px;
+    text-shadow: 1px 3px 4px $blueblack;
+
+}
+    i:hover {
+        transform: rotate(360deg);
+        transition-duration: 1s;
+    }
+  
+  i.fbook {
+    background-color: #4367B0;
+    color: white;
+  }
+  
+  i.insta {
+    background: linear-gradient(45deg, #ffdc6e 0%,#f26330 32%,#d8258a 70%,#7643ca 100%);
+    color: white;
+  }
+  
+  i.twitter {
+    background-color: #21A1F0;
+    color: white;
+  }
+  
+  i.mail {
+    background: linear-gradient(45deg, indigo, #23292D, indigo, #23292D, indigo );
+    color: white;
+  }
+  
+  i.github {
+    background-color: #23292D;
+    color: white;
+  }
+  
+  i.linkedIn {
+    background-color: #0577B4;
+    color: white;
+  } }
+
+
+
+@media (min-width: 900px) {
+    
+    .card {padding: 0;
+    margin: 100px;}
+}
