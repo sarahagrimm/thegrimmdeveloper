@@ -1,0 +1,105 @@
+@import url('https://use.fontawesome.com/releases/v5.2.0/css/all.css');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab|Amatic+SC|Rochester|Montserrat');
+$blueblack: rgb(45, 52, 56);
+
+header {
+    background: url('../../assets/pier.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    filter: grayscale(50%);
+
+}
+
+.masthead-bg {
+
+    height: 100vh;
+
+    h1 {
+        font-family: 'Amatic SC', cursive;
+        margin-top: 30vh;
+        text-shadow: 1px 4px 4px black;
+        letter-spacing: 3px;
+        font-size: 4rem;
+    }
+
+    p {
+        font-family: 'Josefin Slab', cursive;
+        text-shadow: 1px 4px 4px black;
+        letter-spacing: 3px;
+        font-size: 1.7rem;
+    }
+
+    hr {
+        border: 1.5px solid white;
+        width: 50vw;
+    }
+
+
+}
+
+.navbar-toggler-icon {
+    color: white;
+}
+
+nav {
+    background-color: $blueblack;
+
+    a {
+        color: white !important;
+        text-shadow: 1px 1px 1px black;
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 3px;
+
+        &:hover {
+            color: slateblue !important;
+        }
+
+        .star {
+            color: crimson;
+        }
+    }
+
+    span {
+        margin-top: 7px;
+    }
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+}
+
+@media (min-width: 600px) {
+    #mainNav {
+      padding-top: 25px;
+      padding-bottom: 25px;
+      -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+      -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
+      transition: padding-top 0.3s, padding-bottom 0.3s;
+      border: none;
+      background-color: transparent;
+      position: absolute;
+    }
+
+    h1 {
+        font-size: 7em !important;
+        font-family: 'Amatic SC', cursive;
+        text-shadow: 1px 4px 4px black;
+        letter-spacing: 3px;
+
+    }
+
+    p {
+        font-size: 3em !important;
+        letter-spacing: 3px;
+        font-family: 'Josefin Slab', cursive;
+        text-shadow: 1px 4px 4px black;
+    }
+
+    hr {
+        border: 2px solid white;
+        width: 50vw;
+    }
+  }

@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab|Amatic+SC|Montserrat');
+
+#footer {
+    background-color: black;
+    color: white;
+    font-family: 'Amatic SC';
+
+    
+
+    button {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 12px;
+
+        a {
+            color: white;
+        }
+
+        a:hover {
+            text-decoration: none;
+            
+        }
+
+        &:hover {
+            filter: brightness(120%);
+        }
+
+        i {
+            font-size: 20px;
+        }
+    }
+
+    .instagram {
+        background: linear-gradient(15deg, #ffdc6e 0%,#f26330 32%,#d8258a 70%,#7643ca 100%);
+        color: white;
+
+
+    }
+}
