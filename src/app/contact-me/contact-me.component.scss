@@ -1,16 +1,29 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Slab|Amatic+SC');
 
+#contact {
+  background: linear-gradient(to top right,#f6f6f7,#fefefe);
+
+
+
 form {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
-h2 {
+.form {
+  width: 600px;
+
+}
+
+h1 {
+  font-size: 3rem;
   letter-spacing: 5px;
   font-family: 'Amatic SC', cursive;
 }
 
 p {
   font-family: 'Josefin Slab', cursive;
+}
+
 }

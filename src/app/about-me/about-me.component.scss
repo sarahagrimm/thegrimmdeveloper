@@ -1,13 +1,10 @@
-$blueblack: rgb(45, 52, 56);
+$blueblack: hsl(202, 11%, 20%);
 
-@import url('https://fonts.googleapis.com/css?family=Josefin+Slab|Amatic+SC');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab|Amatic+SC|Rochester');
 
 #about {
-    // background-color: black;
-    // background: url('https://images.pexels.com/photos/599459/pexels-photo-599459.jpeg?auto=compress&cs=tinysrgb&h=1350');
     background: url('../../assets/city.jpg');
     background-size: cover;
-    background-position: fixed;
 
     p {
         font-size: 1em;
@@ -30,19 +27,23 @@ $blueblack: rgb(45, 52, 56);
     max-width: 500px;
     padding-top: 25px;
 
+    .contactBtn {
+        padding: 10px;
+    }
+
 
 i {
-    font-size: 25px;
-    padding: 13px;  
+    font-size: 30px;
+    padding: 23px;  
     color: $blueblack;
-    width: 50px;
-    height: 50px;
-    text-shadow: 1px 3px 4px $blueblack;
+    width: 75px;
+    height: 75px;
+    text-shadow: 1px 2px 4px $blueblack;
 
 }
     i:hover {
         transform: rotate(360deg);
-        transition-duration: 1s;
+        transition-duration: 1.5s;
     }
   
   i.fbook {
@@ -75,6 +76,15 @@ i {
     color: white;
   } }
 
+  #quote {
+      background: linear-gradient( $blueblack, hsl(196, 49%, 8%));
+      font-family: 'Rochester', cursive;
+
+      .fa-heart {
+          color: crimson;
+          font-size: 3rem;
+      }
+  }
 
 
 @media (min-width: 900px) {

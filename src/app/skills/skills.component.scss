@@ -3,6 +3,15 @@ $black: hsl(0, 1%, 15%);
 
 @import url('https://fonts.googleapis.com/css?family=Josefin+Slab|Amatic+SC');
 
+#skills {
+    background: linear-gradient(to top right,#f6f6f7,#fefefe);
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 i {
     font-size: 50px;
     padding-right: 20px;
@@ -13,7 +22,7 @@ i {
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 3rem;
     letter-spacing: 10px;
     font-family: 'Amatic SC', cursive;
 }
@@ -21,6 +30,11 @@ h1 {
 h3 {
     font-family: 'Josefin Slab', cursive;
     letter-spacing: 5px;
+}
+
+h5 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 2rem;
 }
 
 .row {
@@ -33,4 +47,15 @@ li {
     padding: 15px;
     font-family: 'Josefin Slab', cursive;
 
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    padding: 2rem;
+    margin: 30px;
+
+    img {
+       width: 100px; 
+    }
 }

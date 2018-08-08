@@ -1,5 +1,5 @@
 @import url('https://use.fontawesome.com/releases/v5.2.0/css/all.css');
-@import url('https://fonts.googleapis.com/css?family=Josefin+Slab|Amatic+SC|Rochester');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab|Amatic+SC|Rochester|Montserrat');
 $blueblack: rgb(45, 52, 56);
 
 header {
@@ -14,31 +14,29 @@ header {
 
 .masthead-bg {
 
-    // background: linear-gradient( skyblue, $blueblack);
     height: 100vh;
-    // width: 100vw;
-    // margin-top: -63px;
 
     h1 {
-        margin-top: 30vh;
-        font-size: 7em;
         font-family: 'Amatic SC', cursive;
+        margin-top: 30vh;
         text-shadow: 1px 4px 4px black;
         letter-spacing: 3px;
-
+        font-size: 4rem;
     }
 
     p {
-        font-size: 3em;
-        letter-spacing: 3px;
         font-family: 'Josefin Slab', cursive;
         text-shadow: 1px 4px 4px black;
+        letter-spacing: 3px;
+        font-size: 1.7rem;
     }
 
     hr {
-        border: 2px solid white;
+        border: 1.5px solid white;
         width: 50vw;
     }
+
+
 }
 
 .navbar-toggler-icon {
@@ -51,7 +49,7 @@ nav {
     a {
         color: white !important;
         text-shadow: 1px 1px 1px black;
-        font-family: 'Lato', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         letter-spacing: 3px;
 
         &:hover {
@@ -73,7 +71,7 @@ nav {
     height: 70px;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 600px) {
     #mainNav {
       padding-top: 25px;
       padding-bottom: 25px;
@@ -83,5 +81,25 @@ nav {
       border: none;
       background-color: transparent;
       position: absolute;
+    }
+
+    h1 {
+        font-size: 7em !important;
+        font-family: 'Amatic SC', cursive;
+        text-shadow: 1px 4px 4px black;
+        letter-spacing: 3px;
+
+    }
+
+    p {
+        font-size: 3em !important;
+        letter-spacing: 3px;
+        font-family: 'Josefin Slab', cursive;
+        text-shadow: 1px 4px 4px black;
+    }
+
+    hr {
+        border: 2px solid white;
+        width: 50vw;
     }
   }

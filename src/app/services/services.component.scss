@@ -7,7 +7,12 @@ i {
 
 
 .card {
-    height: 350px;
+    height: 450px;
+    width: 85%;
+
+    img {
+        width: 135px;
+    }
 }
 
 .container-fluid {
@@ -18,8 +23,15 @@ h1 {
     font-size: 3em;
     letter-spacing: 10px;
     font-family: 'Amatic SC', cursive;
+
 }
 
 h4 {
     font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Josefin Slab', serif;
+
 }
