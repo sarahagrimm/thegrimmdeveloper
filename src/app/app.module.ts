@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+// import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -11,15 +11,15 @@ import { ServicesComponent } from './services/services.component';
 import { FooterComponent } from './footer/footer.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 
-const appRoutes: Routes = [
+// const appRoutes: Routes = [
   
-  { path: 'home', component: HeaderComponent },
-  { path: 'about', component: AboutMeComponent },
-  { path: 'skills', component: SkillsComponent },
-  { path: 'contact', component: ContactMeComponent },
-  { path: 'portfolio', component: PortfolioComponent }
+//   { path: 'home', component: HeaderComponent },
+//   { path: 'about', component: AboutMeComponent },
+//   { path: 'skills', component: SkillsComponent },
+//   { path: 'contact', component: ContactMeComponent },
+//   { path: 'portfolio', component: PortfolioComponent }
 
-];
+// ];
 
 
 @NgModule({
@@ -35,9 +35,9 @@ const appRoutes: Routes = [
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(
-      appRoutes,
-      {enableTracing: true} )
+    // RouterModule.forRoot(
+    //   appRoutes,
+    //   {enableTracing: true} )
     
   ],
   providers: [],

@@ -9,3 +9,32 @@ h1 {
     font-family: 'Amatic SC', cursive;
     font-size: 3rem;
 }
+
+img {
+    width: 100vw;
+    height: 38vh;
+    background-color: hsl(0, 0%, 12%);
+}
+
+.col-lg-4, .col-lg-12{
+    padding-left: 0 !important;
+}
+@media (min-width: 900px) {
+
+    img {
+        width: 450px;
+    }
+
+    .col-lg-4, .col-lg-12 {
+        padding-left: 15px !important;
+    }
+
+    // .rowOne {
+    //     padding-left: 100px;
+    // }
+
+    .rowTwo {
+        padding-top: 40px;
+        // padding-left: 100px;
+    }
+}
