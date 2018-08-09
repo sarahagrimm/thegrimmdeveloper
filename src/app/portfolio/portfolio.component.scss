@@ -1,24 +1,31 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Slab|Amatic+SC|Rochester|Montserrat');
 
 #portfolio {
-    background: linear-gradient(to top right,#f6f6f7,#fefefe);
+    // background: linear-gradient(to top right,#f6f6f7,#fefefe);
+    // background: url('https://images.pexels.com/photos/951539/pexels-photo-951539.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+    background: url('https://images.pexels.com/photos/825864/pexels-photo-825864.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+    background-size: cover; 
+    padding: 50px 0;
+    background: linear-gradient(to bottom, #a90329 0%,#8f0222 44%,#6d0019 100%);
 }
 
 
 h1 {
     font-family: 'Amatic SC', cursive;
     font-size: 3rem;
+    padding: 0 0 20px;
+    color: white;
 }
 
 img {
     width: 100vw;
     height: 38vh;
-    background-color: hsl(0, 0%, 12%);
 }
 
 .col-lg-4, .col-lg-12{
     padding-left: 0 !important;
 }
+
 @media (min-width: 900px) {
 
     img {
@@ -29,12 +36,7 @@ img {
         padding-left: 15px !important;
     }
 
-    // .rowOne {
-    //     padding-left: 100px;
-    // }
-
-    .rowTwo {
+    .rowTwo, .rowThree {
         padding-top: 40px;
-        // padding-left: 100px;
     }
 }

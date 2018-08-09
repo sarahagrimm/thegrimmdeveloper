@@ -1,43 +1,39 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Slab|Amatic+SC');
+.container-fluid {
+  background: linear-gradient(to bottom, #a90329 0%, #8f0222 44%, #6d0019 100%);
 
-i {
-    font-size: 60px;
-    padding: 40px;
-}
+  h1 {
+    font-size: 3em;
+    letter-spacing: 10px;
+    font-family: "Amatic SC", cursive;
+  }
 
-
-.card {
+  .card {
     min-height: 375px;
     width: 85%;
 
-    img {
-        width: 135px;
+    i {
+      font-size: 60px;
+      padding: 40px;
     }
-}
 
-.container-fluid {
-    background: linear-gradient(45deg, slateblue, seagreen);
-}
+    img {
+      width: 135px;
+    }
 
-h1 {
-    font-size: 3em;
-    letter-spacing: 10px;
-    font-family: 'Amatic SC', cursive;
+    h4 {
+      font-family: "Amatic SC", cursive;
+      font-weight: bold;
+    }
 
-}
-
-h4 {
-    font-family: 'Amatic SC', cursive;
-    font-weight: bold;
-}
-
-p {
-    font-family: 'Josefin Slab', serif;
-
+    p {
+      font-family: "Josefin Slab", serif;
+    }
+    
+  }
 }
 
 @media (min-width: 900px) {
-    .card {
-        height: 400px !important;
-    }
+  .card {
+    height: 400px !important;
+  }
 }
